@@ -1,0 +1,70 @@
+/* font-family: 'Outfit', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  max-width: 300px;
+  background-color: #fff;
+  padding: 1rem 1rem 2.5rem;
+  text-align: center;
+  box-shadow: -2.8px -3.4px 14.2px -11px rgba(0, 0, 0, 0.07),
+    -2px -2.4px 24px -11px rgba(0, 0, 0, 0.05),
+    1.3px 1.6px 33px -11px rgba(0, 0, 0, 0.042),
+    7.1px 8.5px 42.3px -11px rgba(0, 0, 0, 0.035),
+    16.4px 19.5px 53px -11px rgba(0, 0, 0, 0.028),
+    42px 50px 69px -11px rgba(0, 0, 0, 0.02);
+}
+
+.hero-img,
+.container {
+  border-radius: 15px;
+}
+
+.hero-img {
+  margin-bottom: 1.7rem;
+}
+
+.hero-txt {
+  line-height: 1.2;
+  margin: 0 auto 1rem;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+.hero-para {
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.hero-txt,
+.hero-para {
+  width: 95%;
+}
